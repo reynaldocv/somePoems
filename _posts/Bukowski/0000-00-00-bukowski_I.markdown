@@ -3,7 +3,7 @@ layout: poema
 title:  "A la puta que se llevó mis poemas"
 date:   2026-01-01 00:00:00 +0000
 category: Bukowski
-youtube: "https://youtu.be/5OFaY2i9yAg?si=WSXO-SAjtU34pZod"
+youtube: https://youtu.be/5OFaY2i9yAg?si=WSXO-SAjtU34pZod
 ---
     Algunos dicen que debemos eliminar del poema
     los remordimientos personales,
