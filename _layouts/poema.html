@@ -48,12 +48,15 @@
     </p>
   {% endif %}
   <div class="w3-container w3-center" >
-    <h4>{{page.title}} ({{ page.date | date: "%B %d, %Y" }})</h4>    
+    <h4><b>{{page.title}} - {{page.category}}</b></h4>    
   </div>
   
   <div class="w3-container w3-padding-32">
     {{ content }}
   </div>
+  {{page.youtube}}
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7M9nuJAc9ME?si=MaEtR1EcMmFnhI49" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   
   <!-- Footer -->
   {% include footer.html %}
